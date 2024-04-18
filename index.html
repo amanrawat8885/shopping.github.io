@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Style Css  -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <title>Shoes Website</title>
+</head>
+
+<body class="bg-light">
+
+
+
+
+  <!-- Navbar section  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top" style="z-index: 99999;">
+    <div class="container-fluid">
+      <a class="navbar-brand image-container" href="index.html"><img class="main-logo mx-lg-5" src="./img/logo/logo.png"></a>
+      <button class="navbar-toggler border-0 outline-none" style="outline: none;" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold text-center">
+          <li class="nav-item mx-2 my-md-0">
+            <a class="nav-link active" aria-current="page" href="#">MEN</a>
+            <div class="rounded border border-1 border-dark py-5 overflow-hidden bg-white text-center px-5 subtitle"
+              style="width: 600px;">
+              <div class="row">
+                <div class="col-4 border-2 border-end">
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                </div>
+                <div class="col-4 border-2 border-end">
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                </div>
+                <div class="col-4">
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                  <p><a class="text-decoration-underline text-dark" href="">Shoes</a></p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item mx-2 my-md-0">
+            <a class="nav-link active" aria-current="page" href="#">WOMEN</a>
+          </li>
+          <li class="nav-item mx-2 my-md-0">
+            <a class="nav-link active" aria-current="page" href="#">KIDS</a>
+          </li>
+          <li class="nav-item mx-2 my-md-0">
+            <a class="nav-link active" aria-current="page" href="#">HOME & LIVING</a>
+          </li>
+          <li class="nav-item mx-2 my-md-0">
+            <a class="nav-link active" aria-current="page" href="#">BEAUTY</a>
+          </li>
+
+        </ul>
+        <div class="d-flex justify-content-center mt-lg-0 mt-md-5 mx-md-5 mx-0">
+          <a href="" class="text-center "><i class="fa-solid fa-user fs-5 main-color"></i>
+            <p class="fw-bold">Profile</p>
+          </a>
+          <a href="" class="text-center mx-4"><i class="fa-solid fa-heart fs-5 main-color"></i>
+            <p class="fw-bold">Wishlist</p>
+          </a>
+          <a href="./page.html" class="text-center position-relative">
+            <i class="fa-solid fa-cart-shopping fs-5 main-color position-relative"></i>
+            <span id="addCount"
+              class="main-color fw-bold position-absolute top-0 ms-2 start-100 translate-middle bg-light rounded-circle">
+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+            <p class="fw-bold">Cart</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section  -->
+  <section class="hero-section container-fluid">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide swiper-slide-1">
+          <!-- <img src="../img/crousel_img/box-img1.jpg" class="img-fluid" /> -->
+        </div>
+        <div class="swiper-slide swiper-slide-2">
+          <!-- <img src="../img/crousel_img/box-img1.jpg" class="img-fluid" /> -->
+        </div>
+        <div class="swiper-slide swiper-slide-3">
+          <!-- <img src="../img/crousel_img/box-img1.jpg" class="img-fluid" /> -->
+        </div>
+        <div class="swiper-slide swiper-slide-4">
+          <!-- <img src="../img/crousel_img/box-img1.jpg" class="img-fluid" /> -->
+        </div>
+        <div class="swiper-slide swiper-slide-5">
+          <!-- <img src="../img/crousel_img/box-img1.jpg" class="img-fluid" /> -->
+        </div>
+        <div class="swiper-slide swiper-slide-6">
+          <!-- <img src="../img/crousel_img/box-img1.jpg" class="img-fluid" /> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- content & heding  -->
+    <article class="shoes-headline text-center overflow-hidden mx-2 mx-md-5">
+      <h2 class="fw-bold fs-1 my-4 mt-md-0">Discover Your <span class="main-color">Perfect Pair at Soleful
+          Shoes</span><i class="main-color fa-solid fa-shoe-prints"></i></h2>
+      <p class="fw-bold fs-md-3 d-none d-sm-inline"><span class=" main-color">At Soleful Shoes, we believe that every
+          step you take should be a stylish one.</span> <span class="d-none d-md-inline" style="z-index: 99999;"> Our
+          boutique shoe shop is dedicated to offering an unparalleled selection of footwear that not only looks
+          fantastic but also feels incredible to wear. Whether you're searching for the perfect pair of heels to elevate
+          your evening ensemble or comfortable sneakers to conquer the urban jungle, we've got you covered. Step inside
+          our inviting store and immerse yourself in a world of fashion-forward footwear. From classic designs to the
+          latest trends, our curated collection showcases top-quality shoes crafted by renowned brands and emerging
+          designers alike. With a keen eye for both style and comfort, we handpick each pair to ensure they meet our
+          stringent standards of excellence. But Soleful Shoes is more than just a place to shop – it's a destination
+          where shoe enthusiasts come to indulge their passion. Our knowledgeable staff is here to provide personalized
+          assistance, helping you find the perfect fit and style to suit your unique taste and lifestyle. Whether you're
+          a trendsetter, a fitness fanatic, or a professional on the go, we'll help you step out with confidence and
+          flair.</span><span class="d-md-inline  main-color">"Step Into Style: Explore Our Shoe Collection
+          Online!"</span> </p>
+    </article>
+  </section>
+
+
+
+  <!-- card section  -->
+  <div class="container main-card-container">
+    <div id="card-container" class="row d-flex justify-content-between">
+
+      <!-- card will be so here  -->
+
+    </div>
+  </div>
+
+
+
+  <!-- Discount banner  -->
+  <div class="container" id="background-container" style="margin-top: -200px;">
+    <div class="background-container">
+      <i id="banner-cut-icon" class="fa-solid fa-xmark fs-2 text-white position-absolute top-0 end-0"
+        style="cursor: pointer;"></i>
+    </div>
+  </div>
+
+
+  <!-- card   -->
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-lg-5 col-12">
+        <div class="row" id="leftMidItem">
+        <!--  dynamic mid card-->
+        </div>
+      </div>
+
+
+
+
+
+      <div class="col-lg-7 col-12 mt-3">
+        <div class="card">
+          <img src="./img/product_img/midItem4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Men Shoes</h5> -->
+            <!-- <h4 class="card-title">Men Shoes</h4> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- infinty scroll image  -->
+<div class="gallery-container mt-5">
+  <div class="gallery">
+    <img src="./img/crousel_img/box-img2.jpg" alt="Image 1">
+    <img src="./img/crousel_img/box-img2.jpg" alt="Image 2">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+    <img src="./img/crousel_img/box-img4.jpg" alt="Image 3">
+  </div>
+</div>
+
+
+<!-- footer section -->
+<footer class="container-fluid bg-dark text-light py-4">
+  <div class="row">
+
+    <div class="col-md-2 text-white mt-5">
+      <a href=""><li><i class="fa-solid fa-cart-shopping fs-5 text-white"></i></li></a>
+      <a href=""><li class="text-white">Powered by AmAn</li></a>
+    </div>
+    
+
+    <div class="col-md-2 mt-5 ">
+      <h3>MEN</h3>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+    </div>
+
+    <div class="col-md-2 mt-5">
+      <h3>WOMAN</h3>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+    </div>
+
+    <div class="col-md-2 mt-5">
+      <h3>ABOUT</h3>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+      <a href=""><li class="text-white">All Men</li></a>
+    </div>
+
+    <div class=" col-md-4 mt-5">
+      <h3>SUBSCRIBE</h3>
+      <P class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In et, temporibus architecto quam maxime tempora nobis</P>
+      <div class="footer-div p-2">
+        <i class="fa-regular fa-envelope fs-5"></i>
+        <input class=" footer-input text-white ms-2 fs-5"  type="mail" name="" id="" placeholder="Enter your email">
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+<!-- side icon  -->
+<div class="side-icon">
+  <i class="main-color fa-solid fa-shoe-prints"></i>
+</div>
+
+
+ <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="./data.js"></script>
+  <script src="./main.js"></script>
+  <script src="./cart.js"></script>
+
+  <!-- swiper cdn link  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "cube",
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
+      },
+      speed: 2000,
+    });
+  </script>
+</body>
+
+</html>
